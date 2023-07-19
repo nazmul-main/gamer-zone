@@ -4,10 +4,10 @@ use for mobile device style
 
 @media screen and (max-width:576px) {
     /* header style here */
-    header{
+    header, .gamer{
         padding: 20px ;
     }
-    nav, ul{
+    nav, ul, .gamer{
         flex-direction: column;
     }
     
@@ -20,6 +20,15 @@ use for mobile device style
     .banner-img img{
         margin-top: 50px;
     }
+    .gamer-contant{
+        text-align: center;
+    }
+    .gamer-contant, .main-desc{
+        text-align: center;
+    }
+
+   
+   
 }
 
 /*---------------------------------------------------------------------
@@ -27,20 +36,29 @@ use for tablet  or portreted device style
 ---------------------------------------------------------------------*/
 @media screen and (min-width:576px) and (max-width:946px){
     /* header style here */
-    header{
+    header, .gamer{
         padding: 20px ;
     }
-    nav, ul{
+    nav, ul, .gamer{
         flex-direction: column;
+        justify-content: center;
     }
     
     .nav-banner{
         flex-direction:column-reverse;
     }
-    .nav-menu ul li{
+    .nav-menu ul li, .gamer{
     margin-top: 40px;
     }
     .banner-img img{
         margin-top: 50px;
     }
+    .gamer-contant{
+        text-align: center;
+    }
+    .gamer-contant, .main-desc{
+        text-align: center;
+    }
+
+    
 }

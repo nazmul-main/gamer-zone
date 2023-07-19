@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Univarsal sealector */
+/* Common sheared style here  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+header, .gamer{
+    background-color: #ffffff;
+    padding: 16px 150px;
+}
+
+.main-desc{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.12rem;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 35px;
+    
+}
 
 /*-------------------------------------------------------------------------
 header style start here 
 ---------------------------------------------------------------------------*/
-header{
-    background-color: #e0ced8;
-    padding: 16px 150px;
-}
+
 /* nav style here */
 nav{
     display: flex;
@@ -142,7 +153,62 @@ nav{
     width: 100%;
 }
 
+/* gamer section style here */
+.gamer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.gamer-img img{
+    width: 100%;
+}
+.gamer-contant{
+    text-align: right;
+}
+.gamer-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    }
+    .gamer-btn{
+    border-radius: 40px;
+    background-color: #F948B2;
+    padding: 10px 30px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    }
 
+    .our-perpose .purpose{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+    }
+    .our-perpose{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 45px;
+    }
 /*-------------------------------------------------------------------------
 header style end here 
 ---------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------
+main style end here 
+---------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------
+main style end here 
+---------------------------------------------------------------------------*/
+
+
