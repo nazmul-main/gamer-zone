@@ -379,7 +379,8 @@ nav{
     .feature-title{
     color: #0B0223;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600
+
     }
 
     .feature-item{
@@ -388,7 +389,8 @@ nav{
         justify-content: space-around;
         gap: 20px;
         transition: 0.3s;
-        padding: 5px 10px;
+        padding: 10px 10px;
+        margin: 10px 20px;
     }
 
     .feature-item:hover {
