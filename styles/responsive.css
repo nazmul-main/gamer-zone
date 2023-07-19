@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------------
+use for mobile device style 
+---------------------------------------------------------------------*/
+
+@media screen and (max-width:576px) {
+    /* header style here */
+    header{
+        padding: 20px ;
+    }
+    nav, ul{
+        flex-direction: column;
+    }
+    
+    .nav-banner{
+        flex-direction:column-reverse;
+    }
+    .nav-menu ul li{
+    margin-top: 40px;
+    }
+    .banner-img img{
+        margin-top: 50px;
+    }
+}
+
+/*---------------------------------------------------------------------
+use for tablet  or portreted device style
+---------------------------------------------------------------------*/
+@media screen and (min-width:576px) and (max-width:946px){
+    /* header style here */
+    header{
+        padding: 20px ;
+    }
+    nav, ul{
+        flex-direction: column;
+    }
+    
+    .nav-banner{
+        flex-direction:column-reverse;
+    }
+    .nav-menu ul li{
+    margin-top: 40px;
+    }
+    .banner-img img{
+        margin-top: 50px;
+    }
+}
