@@ -4,11 +4,13 @@ use for mobile device style
 
 @media screen and (max-width:576px){
     /* header style here */
-    header, .gamer, .funny-video, .play-game, .play-game-v2, .feature{
+    header, .gamer, .funny-video, .play-game, .play-game-v2, .feature, .footer{
         padding: 20px ;
     }
-    nav, ul, .gamer, .funny-video-assets, .play-game, .play-game-v2{
+    nav, ul, .gamer, .funny-video-assets, .play-game, .play-game-v2 {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .nav-banner, .play-game-v2{
@@ -67,12 +69,29 @@ use for mobile device style
         line-height: 30px;
     }
 
-    .feature-contant{
+    .feature-menu ul{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-flow: dense;
         justify-items: self-end;
         row-gap: 20px;
+    }
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        row-gap: 20px;
+        
+    }
+
+    .footer-icon ul p{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .footer-contant ul{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
     }
 }
 
@@ -163,5 +182,29 @@ use for tablet  or portreted device style
         grid-auto-flow: dense;
         justify-items: self-end;
         row-gap: 20px;
+    }
+    .feature-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: dense;
+        justify-items: self-end;
+        row-gap: 20px;
+    }
+    .footer-menu ul{
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        row-gap: 20px;
+        
+    }
+
+    .footer-icon ul p{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+    .footer-contant ul{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
     }
 }
