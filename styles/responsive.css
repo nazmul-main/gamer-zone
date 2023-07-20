@@ -19,6 +19,11 @@ use for mobile device style
     .play-game-v2{
         flex-direction: column-reverse;
     }
+    .nav-menu ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .nav-menu ul li{
     margin-top: 40px;
     }
@@ -88,10 +93,6 @@ use for mobile device style
         
     }
 
-    .footer-icon ul {
-        d
-
-    }
 
     .footer-contant ul{
         display: grid;
@@ -128,6 +129,7 @@ use for tablet  or portreted device style
     .nav-banner, .play-game-v2{
         flex-direction:column-reverse;
     }
+
     .nav-menu ul li, .gamer{
     margin-top: 40px;
     }
